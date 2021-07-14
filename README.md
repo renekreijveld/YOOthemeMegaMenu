@@ -33,6 +33,7 @@ If you want to see what modulepositions are defined in the dropdown columns, set
 This will show the modulepositions at the top of each column in the dropdown.
 
 Don't forget to turn the option off again!
+
 ![Modulepositions](https://github.com/renekreijveld/YOOthemeMegaMenu/blob/59383c8a810df62d9752a535eff72eb2bddc4ca9/screenshots/modulepositions.jpg)
 
 ### Version history
