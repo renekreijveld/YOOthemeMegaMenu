@@ -5,7 +5,7 @@ Module to generate a mega dropdown menu for YOOtheme Pro
 - Download the latest release <a href="https://github.com/renekreijveld/YOOthemeMegaMenu/releases/tag/1.0.0" target="_blank">here</a>.
 - Install the module inside your YOOtheme Pro based website.
 - In YOOtheme Pro go to MENUS and remove the menu at the NAVBAR POSITION.
-- Create a new YOOtheme MegaMenu module and publish it on the navbar module postion.
+- Create a new YOOtheme MegaMenu module and publish it on the **navbar** module postion.
 
 ## Usage
 
