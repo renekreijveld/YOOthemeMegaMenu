@@ -10,7 +10,7 @@ Joomla module to generate a mega dropdown menu for YOOtheme Pro.
 ## Important
 
 This YOOtheme Mega Menu module uses the Reglar Labs Modules Anywhere plugin to add modules inside the dropdown.
-Download the free version of Modules Anywhere here: <a href="https://regularlabs.com/modulesanywhere" target="_blank">Regular Labs Modules Anywhere</a>.
+Download and install the free or pro version of Modules Anywhere here: <a href="https://regularlabs.com/modulesanywhere" target="_blank">Regular Labs Modules Anywhere</a>.
 
 ## Usage
 
