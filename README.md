@@ -10,7 +10,7 @@ Joomla Module to generate a mega dropdown menu for YOOtheme Pro.
 ## Usage
 
 - In the YOOtheme MegaMenu module, add Top Level Items and define what kind of dropdown you want to display when hovering over the toplevel items:
-  - Choose **Menu Menu** to display 1 to up to 6 columns in a mega dropdown.
+  - Choose **Mega Menu** to display 1 to up to 6 columns in a mega dropdown.
   - Choose **Single Column** to display a single column in a dropdown.
 - Don't forget to set the other options for each toplevel item:
   - Show dropdown indicator
