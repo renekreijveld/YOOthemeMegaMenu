@@ -20,6 +20,7 @@ Module to generate a mega dropdown menu for YOOtheme Pro
 - Each column in the dropdowns holds a moduleposition. For the **1st** toplevel item, the **1st** column has moduleposition name **megamenu11**.
 - The **2nd** column of the **1st** toplevel item has moduleposition name **megamenu12**
 - For the **2nd** toplevel item, the **1st** column has moduleposition name **megamenu21**. You get the idea ;-)
+- You can add more toplevel items by clicking the green + icon at the bottom right of one of the other toplevel items.
 - You can now create modules that you can display on the megamenu modulepositions to fill up your megamenu.
 
 ### Version history
