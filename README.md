@@ -17,6 +17,7 @@ Joomla Module to generate a mega dropdown menu for YOOtheme Pro.
   - Indicator icon
   - Offset
   - Animation
+- You can hover over the labels of the options to read the description at each option.
 - Each column in the dropdowns holds a moduleposition. For the **1st** toplevel item, the **1st** column has moduleposition name **megamenu11**.
 - The **2nd** column of the **1st** toplevel item has moduleposition name **megamenu12**
 - For the **2nd** toplevel item, the **1st** column has moduleposition name **megamenu21**. You get the idea ;-)
