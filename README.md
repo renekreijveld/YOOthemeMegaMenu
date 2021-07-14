@@ -1,5 +1,5 @@
 # YOOtheme Mega Menu module
-Joomla Module to generate a mega dropdown menu for YOOtheme Pro.
+Joomla module to generate a mega dropdown menu for YOOtheme Pro.
 
 ## Installation instructions
 - Download the latest release <a href="https://github.com/renekreijveld/YOOthemeMegaMenu/releases/tag/1.0.0" target="_blank">here</a>.
@@ -26,6 +26,14 @@ Joomla Module to generate a mega dropdown menu for YOOtheme Pro.
 ![Toplevelitem](https://github.com/renekreijveld/YOOthemeMegaMenu/blob/077a95e91effbbd29cbd406d486818acf91744c0/screenshots/toplevelitem.jpg)
 
 - You can now create modules that you can display on the megamenu modulepositions to fill up your megamenu.
+
+## Tip
+
+If you want to see what modulepositions are defined in the dropdown columns, set the **Show module positions** option to Yes.
+This will show the modulepositions at the top of each column in the dropdown.
+
+Don't forget to turn the option off again!
+![Modulepositions](https://github.com/renekreijveld/YOOthemeMegaMenu/blob/59383c8a810df62d9752a535eff72eb2bddc4ca9/screenshots/modulepositions.jpg)
 
 ### Version history
 2021-07-14 Initial version
