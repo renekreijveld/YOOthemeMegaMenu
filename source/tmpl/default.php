@@ -21,20 +21,6 @@ defined('_JEXEC') or die;
 .mega{
 	width: 100%;
 	left: 0px !important;
-	/* border-top: 2px solid #46a7b3; */
-	/* border-bottom: 2px solid #46a7b3; */
-}
-.single{
-	/* border-top: 2px solid #46a7b3; */
-	/* border-bottom: 2px solid #46a7b3; */
-}
-.mega .uk-nav-default>li>a,
-.single .uk-nav-default>li>a{
-	/* color: #000; */
-}
-.mega .uk-nav-default>li>a:hover,
-.single .uk-nav-default>li>a:hover{
-	/* color: #46a7b3; */
 }
 </style>
 
