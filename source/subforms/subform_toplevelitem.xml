@@ -44,7 +44,7 @@
 		</field>
 		<field name="notemega" type="note" label="" description="MOD_YT_MEGAMENU_NOTEMEGA" showon="ddkind:mega"/>
 		<field name="notesingle" type="note" label="" description="MOD_YT_MEGAMENU_NOTESINGLE" showon="ddkind:single"/>
-		<field name="offset" type="text" default="" label="MOD_YT_MEGAMENU_LBL_OFFSET" description="MOD_YT_MEGAMENU_DESC_OFFSET" />
+		<field name="offset" type="text" default="" label="MOD_YT_MEGAMENU_LBL_OFFSET" description="MOD_YT_MEGAMENU_DESC_OFFSET" showon="ddkind!:no"/>
 		<field name="position" type="list" default="" label="MOD_YT_MEGAMENU_LBL_POSITION" description="MOD_YT_MEGAMENU_DESC_POSITION" showon="ddkind:single">
 			<option value="">MOD_YT_MEGAMENU_POS_DEFAULT</option>
 			<option value="bottom-left">MOD_YT_MEGAMENU_POS_BOTLEFT</option>
@@ -62,11 +62,11 @@
 			<option value="right-center">MOD_YT_MEGAMENU_POS_RIGHTCENTER</option>
 			<option value="right-Bottom">MOD_YT_MEGAMENU_POS_RIGHTBOTTOM</option>
 		</field>
-		<field name="useanimation" type="radio" default="0" label="MOD_YT_MEGAMENU_LBL_USEANIMATION" description="" class="btn-group btn-group-yesno">
+		<field name="useanimation" type="radio" default="0" label="MOD_YT_MEGAMENU_LBL_USEANIMATION" description="" class="btn-group btn-group-yesno" showon="ddkind!:no">
 			<option value="0">JNO</option>
 			<option value="1">JYES</option>
 		</field>
-		<field name="animation" type="list" default="" label="MOD_YT_MEGAMENU_LBL_ANIMATION" description="" showon="useanimation:1">
+		<field name="animation" type="list" default="" label="MOD_YT_MEGAMENU_LBL_ANIMATION" description="" showon="useanimation:1[AND]ddkind!:no">
 			<option value="uk-animation-fade">Fade</option>
 			<option value="uk-animation-scale-up">Scale Up</option>
 			<option value="uk-animation-scale-down">Scale Down</option>
@@ -85,6 +85,6 @@
 			<option value="uk-animation-shake">Shake</option>
 			<option value="uk-animation-stroke">Stroke</option>
 		</field>
-		<field name="animationduration" type="text" default="250" label="MOD_YT_MEGAMENU_LBL_DURATION" description="MOD_YT_MEGAMENU_DESC_DURATION" showon="useanimation:1"/>
+		<field name="animationduration" type="text" default="250" label="MOD_YT_MEGAMENU_LBL_DURATION" description="MOD_YT_MEGAMENU_DESC_DURATION" showon="useanimation:1[AND]ddkind!:no"/>
 	</fieldset>
 </form>
