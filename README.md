@@ -44,4 +44,4 @@ Don't forget to turn the option off again!
 
 2021-07-15 Code improvements, version bumped to 1.0.1
 Added coded improvements by Dmitrii Cymbal and added the option to set a dropdown to 'No dropdown'.
-Also the Modules Anywhere is no longer needed.
+Also the Modules Anywhere plugin is no longer needed.
