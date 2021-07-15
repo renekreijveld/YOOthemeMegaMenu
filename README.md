@@ -6,17 +6,14 @@ Joomla module to generate a mega dropdown menu for YOOtheme Pro.
 - Install the module inside your YOOtheme Pro based Joomla website.
 - In YOOtheme Pro go to MENUS and remove the menu at the NAVBAR POSITION.
 - Create a new YOOtheme MegaMenu module and publish it on the **navbar** module postion.
-
-## Important
-
-This YOOtheme Mega Menu module uses the Reglar Labs Modules Anywhere plugin to add modules inside the dropdown.
-Download and install the free or pro version of Modules Anywhere here: <a href="https://regularlabs.com/modulesanywhere" target="_blank">Regular Labs Modules Anywhere</a>.
+- The use of Reglar Labs Modules Anywhere is no longer needed.
 
 ## Usage
 
 - In the YOOtheme MegaMenu module, add Top Level Items and define what kind of dropdown you want to display when hovering over the toplevel items:
   - Choose **Mega Menu** to display 1 to up to 6 columns in a mega dropdown.
   - Choose **Single Column** to display a single column in a dropdown.
+  - Choose **No dropdown** if you don't want to display a dropdown with a toplevel item.
 - Don't forget to set the other options for each toplevel item:
   - Show dropdown indicator
   - Indicator icon
@@ -43,3 +40,6 @@ Don't forget to turn the option off again!
 
 ### Version history
 2021-07-14 Initial version
+2021-07-15 Code improvements, version bumped to 1.0.1
+Added coded improvements by Dmitrii Cymbal and added the option to set a dropdown to 'No dropdown'.
+Also the Modules Anywhere is no longer needed.
