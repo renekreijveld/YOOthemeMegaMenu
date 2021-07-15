@@ -1,7 +1,7 @@
 <?php
 /**
  * @package YOOtheme MegaMenu
- * @version 1.0.0
+ * @version 1.0.1
  * @copyright Copyright (C) 2021 Destiny B.V., All rights reserved.
  * @license GNU General Public License version 3 or later; see LICENSE.txt
  * @author url: https://www.destiny.nl

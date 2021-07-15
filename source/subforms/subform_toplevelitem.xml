@@ -32,6 +32,7 @@
 		<field name="ddkind" type="radio" default="" label="MOD_YT_MEGAMENU_LBL_DDKIND" description="MOD_YT_MEGAMENU_DESC_DDKIND" class="btn-group btn-group-yesno">
 			<option value="mega">MOD_YT_MEGAMENU_OPT_DDKIND_MEGA</option>
 			<option value="single">MOD_YT_MEGAMENU_OPT_DDKIND_SINGLE</option>
+			<option value="no">MOD_YT_MEGAMENU_OPT_DDKIND_NO</option>
 		</field>
 		<field name="columns" type="list" default="" label="MOD_YT_MEGAMENU_LBL_COLUMNS" description="" showon="ddkind:mega">
 			<option value="1">1</option>

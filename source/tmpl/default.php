@@ -1,7 +1,7 @@
 <?php
 /**
  * @package YOOtheme MegaMenu
- * @version 1.0.0
+ * @version 1.0.1
  * @copyright Copyright (C) 2021 Destiny B.V., All rights reserved.
  * @license GNU General Public License version 3 or later; see LICENSE.txt
  * @author url: https://www.destiny.nl
@@ -15,6 +15,8 @@
  */
 
 defined('_JEXEC') or die;
+use Joomla\CMS\Helper\ModuleHelper;
+
 ?>
 
 <style>
@@ -28,18 +30,37 @@ defined('_JEXEC') or die;
 	<?php foreach ($toplevelitems as $item) : ?>
 	<li>
 		<a href="<?php echo $item->link; ?>" <?php echo $item->target; ?>><?php echo $item->title; ?><?php echo $item->showdd; ?></a>
-		<div class="<?php echo ($item->ddkind == 'mega' ? 'uk-width-large' : '');?> <?php echo $item->ddkind; ?>" uk-dropdown="<?php echo $item->offset . $item->position . $item->animation; ?>">
+		<?php if ($item->ddkind === 'mega' || $item->ddkind === 'single') : ?>
+		<div class="<?php echo ($item->ddkind === 'mega' ? 'uk-width-large' : '');?> <?php echo $item->ddkind; ?>" uk-dropdown="<?php echo $item->offset . $item->position . $item->animation; ?>">
 			<div class="uk-child-width-1-<?php echo $item->columns; ?>@m" uk-grid>
 				<?php for ($col = 1; $col <= $item->columns; $col++) : ?>
 				<div>
 					<?php if ($showpositions == '1') : ?>
 					<strong><?php echo $item->modulename . $col; ?></strong><br>
 					<?php endif; ?>
-					{modulepos <?php echo $item->modulename . $col; ?>}
+					<?php
+					// Load the modules
+					$modules  = ModuleHelper::getModules($item->modulename . $col);
+					$attribs  = array();
+					foreach ($modules as $mod)
+					{
+						$modParams = json_decode($mod->params);
+						if (substr($modParams->style,0,7) === 'System-')
+						{
+							$attribs['style'] = substr($modParams->style,7);
+						}
+						else
+						{
+							$attribs['style'] = '';
+						}
+						echo ModuleHelper::renderModule($mod, $attribs);
+					}
+					?>
 				</div>
 				<?php endfor; ?>
 			</div>
 		</div>
+		<?php endif; ?>
 	</li>
 	<?php endforeach; ?>
 </ul>
