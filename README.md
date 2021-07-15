@@ -2,7 +2,7 @@
 Joomla module to generate a mega dropdown menu for YOOtheme Pro.
 
 ## Installation instructions
-- Download the latest release <a href="https://github.com/renekreijveld/YOOthemeMegaMenu/releases/tag/1.0.1" target="_blank">here</a>.
+- Download the latest release <a href="https://github.com/renekreijveld/YOOthemeMegaMenu/releases" target="_blank">here</a>.
 - Install the module inside your YOOtheme Pro based Joomla website.
 - In YOOtheme Pro go to MENUS and remove the menu at the NAVBAR POSITION.
 - Create a new YOOtheme MegaMenu module and publish it on the **navbar** module postion.
@@ -45,3 +45,6 @@ Don't forget to turn the option off again!
 2021-07-15 Code improvements, version bumped to 1.0.1
 Added coded improvements by Dmitrii Cymbal and added the option to set a dropdown to 'No dropdown'.
 Also the Modules Anywhere plugin is no longer needed.
+
+2021-07-15 Warning fix, version bumped to 1.0.2
+Add an array typecast in the helper to prevent a warning.

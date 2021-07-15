@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 3 or later</license>
 	<authorEmail>email@renekreijveld.nl</authorEmail>
 	<authorUrl>https://www.destiny.nl</authorUrl>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>This module generates a Mega Menu for YOOtheme Pro</description>
 	<files>
 		<filename>helper.php</filename>

@@ -1,7 +1,7 @@
 <?php
 /**
  * @package YOOtheme MegaMenu
- * @version 1.0.1
+ * @version 1.0.2
  * @copyright Copyright (C) 2021 Destiny B.V., All rights reserved.
  * @license GNU General Public License version 3 or later; see LICENSE.txt
  * @author url: https://www.destiny.nl
@@ -38,7 +38,7 @@ class ModYoothemeMegamenuHelper
 	{
 		$db = Factory::getDbo();
 
-		$toplevelitems = $params->get('toplevelitems', []);
+		$toplevelitems = (array) $params->get('toplevelitems', []);
 
 		// if empty, then do not connect to the database
 		if(count($toplevelitems) === 0)
