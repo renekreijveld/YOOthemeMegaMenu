@@ -39,7 +39,9 @@ Don't forget to turn the option off again!
 ![Modulepositions](https://github.com/renekreijveld/YOOthemeMegaMenu/blob/59383c8a810df62d9752a535eff72eb2bddc4ca9/screenshots/modulepositions.jpg)
 
 ### Version history
+
 2021-07-14 Initial version
+
 2021-07-15 Code improvements, version bumped to 1.0.1
 Added coded improvements by Dmitrii Cymbal and added the option to set a dropdown to 'No dropdown'.
 Also the Modules Anywhere is no longer needed.
