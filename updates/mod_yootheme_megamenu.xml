@@ -12,6 +12,6 @@
 		</downloads>
 		<maintainer>René Kreijveld</maintainer>
 		<maintainerurl>https://www.destiny.nl</maintainerurl>
-		<targetplatform name="joomla" version=".*"/>
+		<targetplatform name="joomla" version="3.[0123456789]"/>
 	</update>
 </updates>
