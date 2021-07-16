@@ -40,11 +40,14 @@ Don't forget to turn the option off again!
 
 ### Version history
 
-2021-07-14 Initial version
+2021-07-17 Added update server, version bumped to 1.0.3.
+
+2021-07-15 Warning fix, version bumped to 1.0.2
+Add an array typecast in the helper to prevent a warning.
 
 2021-07-15 Code improvements, version bumped to 1.0.1
 Added coded improvements by Dmitrii Cymbal and added the option to set a dropdown to 'No dropdown'.
 Also the Modules Anywhere plugin is no longer needed.
 
-2021-07-15 Warning fix, version bumped to 1.0.2
-Add an array typecast in the helper to prevent a warning.
+2021-07-14 Initial version
+

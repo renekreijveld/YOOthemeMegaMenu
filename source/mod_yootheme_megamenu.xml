@@ -7,8 +7,8 @@
 	<license>GNU General Public License version 3 or later</license>
 	<authorEmail>email@renekreijveld.nl</authorEmail>
 	<authorUrl>https://www.destiny.nl</authorUrl>
-	<version>1.0.2</version>
-	<description>Mega Menu module for YOOtheme Pro, version 1.0.2.</description>
+	<version>1.0.3</version>
+	<description>Mega Menu module for YOOtheme Pro, version 1.0.3.</description>
 	<updateservers>
 		<server type="extension" priority="1" name="YOOtheme Mega Menu Module">https://raw.githubusercontent.com/renekreijveld/YOOthemeMegaMenu/main/updates/mod_yootheme_megamenu.xml</server>
 	</updateservers>
