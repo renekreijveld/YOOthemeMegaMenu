@@ -40,6 +40,8 @@ Don't forget to turn the option off again!
 
 ### Version history
 
+2021-07-30 Added uk-active class on active toplevel item, version bumped to 1.0.4.
+
 2021-07-17 Added update server, version bumped to 1.0.3.
 
 2021-07-15 Warning fix, version bumped to 1.0.2
@@ -50,4 +52,3 @@ Added coded improvements by Dmitrii Cymbal and added the option to set a dropdow
 Also the Modules Anywhere plugin is no longer needed.
 
 2021-07-14 Initial version
-
