@@ -5,6 +5,21 @@
 		<element>mod_yootheme_megamenu</element>
 		<type>module</type>
 		<client>site</client>
+		<version>1.0.5</version>
+		<infourl title="Joomla!">https://github.com/renekreijveld/YOOthemeMegaMenu</infourl>
+		<downloads>
+			<downloadurl type="upgrade" format="zip">https://github.com/renekreijveld/YOOthemeMegaMenu/releases/download/1.0.5/mod_yootheme_megamenu_1.0.5.zip</downloadurl>
+		</downloads>
+		<maintainer>René Kreijveld</maintainer>
+		<maintainerurl>https://www.destiny.nl</maintainerurl>
+		<targetplatform name="joomla" version="3.[0123456789]"/>
+	</update>
+	<update>
+		<name>YOOtheme Mega Menu Module</name>
+		<description>Mega Menu module for YOOtheme Pro, Joomla version</description>
+		<element>mod_yootheme_megamenu</element>
+		<type>module</type>
+		<client>site</client>
 		<version>1.0.4</version>
 		<infourl title="Joomla!">https://github.com/renekreijveld/YOOthemeMegaMenu</infourl>
 		<downloads>
