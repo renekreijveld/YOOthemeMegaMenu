@@ -1,7 +1,7 @@
 <?php
 /**
  * @package YOOtheme MegaMenu
- * @version 1.0.4
+ * @version 1.0.5
  * @copyright Copyright (C) 2021 Destiny B.V., All rights reserved.
  * @license GNU General Public License version 3 or later; see LICENSE.txt
  * @author url: https://www.destiny.nl
@@ -57,16 +57,36 @@ $itemId = $app->input->getCmd('Itemid', '');
 					$attribs  = array();
 					foreach ($modules as $mod)
 					{
+						// Get extra module paramaters
 						$modParams = json_decode($mod->params);
-						if (substr($modParams->style,0,7) === 'System-')
+						$extraClass = $modParams->moduleclass_sfx;
+						// Get extra YOOtheme Template tab parameters
+						$yooParams = json_decode($modParams->yoo_config);
+						$class = [];
+						$title = [];
+						$titleClass = [];
+						$title_element = ($modParams->header_tag ? $modParams->header_tag : 'h3');
+						$titleClass[] = ($yooParams->title_style ? "uk-$yooParams->title_style" : '');
+						$titleClass[] = ($yooParams->title_decoration ? "uk-heading-$yooParams->title_decoration" : '');
+						$class[] = ($yooParams->visibility ? "uk-visible@$yooParams->visibility" : '');
+						$class[] = ($yooParams->style ? "uk-card uk-card-body uk-$yooParams->style" : 'uk-panel');
+						$attribs['style'] = '';
+						echo '<div class="' . $extraClass . ' ' . implode(" ", $class) . '">';
+						if ($mod->showtitle === '1')
 						{
-							$attribs['style'] = substr($modParams->style,7);
-						}
-						else
-						{
-							$attribs['style'] = '';
+							echo '<' . $title_element  . ' class="' . implode(" ", $titleClass) . '">';
+							if ($yooParams->title_decoration === 'line')
+							{
+								echo '<span>' . $mod->title . '</span>';
+							}
+							else
+							{
+								echo $mod->title;
+							}
+							echo '</' . $title_element . '>';
 						}
 						echo ModuleHelper::renderModule($mod, $attribs);
+						echo '</div>';
 					}
 					?>
 				</div>
@@ -77,3 +97,5 @@ $itemId = $app->input->getCmd('Itemid', '');
 	</li>
 	<?php endforeach; ?>
 </ul>
+
+

@@ -40,15 +40,26 @@ Don't forget to turn the option off again!
 
 ### Version history
 
-2021-07-30 Added uk-active class on active toplevel item, version bumped to 1.0.4.
+2021-07-30 1.0.5 YOOtheme Template parameters are now supported.
+With the YOOtheme Pro template, modules have an extra parameters tab called Templates.
+Modules that are published in the dropdown columns now support the following YOOtheme Template parameters:
 
-2021-07-17 Added update server, version bumped to 1.0.3.
+- Visibility
+- Style
+- Title Style
+- Title Decoration
 
-2021-07-15 Warning fix, version bumped to 1.0.2
+For this to work you need to set in the Advanced tab the Header Tag to H3 and the Module Style to Inherited.
+
+2021-07-30 1.0.4 Added uk-active class on active toplevel item.
+
+2021-07-17 1.0.3 Added update server.
+
+2021-07-15 1.0.2 Warning fix.
 Add an array typecast in the helper to prevent a warning.
 
-2021-07-15 Code improvements, version bumped to 1.0.1
+2021-07-15 1.0.1 Code improvements.
 Added coded improvements by Dmitrii Cymbal and added the option to set a dropdown to 'No dropdown'.
 Also the Modules Anywhere plugin is no longer needed.
 
-2021-07-14 Initial version
+2021-07-14 1.0.1 Initial version
