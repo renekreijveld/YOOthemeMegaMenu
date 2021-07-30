@@ -5,10 +5,10 @@
 		<element>mod_yootheme_megamenu</element>
 		<type>module</type>
 		<client>site</client>
-		<version>1.0.4</version>
+		<version>1.0.3</version>
 		<infourl title="Joomla!">https://github.com/renekreijveld/YOOthemeMegaMenu</infourl>
 		<downloads>
-			<downloadurl type="upgrade" format="zip">https://github.com/renekreijveld/YOOthemeMegaMenu/releases/download/1.0.4/mod_yootheme_megamenu_1.0.4.zip</downloadurl>
+			<downloadurl type="upgrade" format="zip">https://github.com/renekreijveld/YOOthemeMegaMenu/releases/download/1.0.4/mod_yootheme_megamenu_1.0.3.zip</downloadurl>
 		</downloads>
 		<maintainer>René Kreijveld</maintainer>
 		<maintainerurl>https://www.destiny.nl</maintainerurl>
