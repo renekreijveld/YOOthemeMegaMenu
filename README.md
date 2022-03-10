@@ -1,5 +1,5 @@
 # YOOtheme Mega Menu module
-Joomla module to generate a mega dropdown menu for YOOtheme Pro.
+Joomla module to generate a mega dropdown menu for YOOtheme Pro on Joomla 3.
 
 ## Installation instructions
 - Download the latest release <a href="https://github.com/renekreijveld/YOOthemeMegaMenu/releases" target="_blank">here</a>.
